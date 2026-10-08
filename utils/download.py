@@ -74,6 +74,6 @@ hourly_dataframe = pd.DataFrame(data = hourly_data)
 print("\nHourly data\n", hourly_dataframe)
 
 # Save the historical weather data to a CSV file
-hourly_dataframe.to_csv("data/weather.csv", index=False)
+hourly_dataframe.to_csv("data/weather_data.csv", index=False)
 
 print("Weather data saved successfully!")
