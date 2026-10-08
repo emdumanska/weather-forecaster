@@ -14,4 +14,13 @@ __pycache__/
 .env
 
 # Weather data
-data/
+
+# Ignore downloaded weather data
+data/*.csv
+
+# Allow generated graphs
+!data/
+!data/*.png
+
+# Ignore cache files
+.cache.sqlite
